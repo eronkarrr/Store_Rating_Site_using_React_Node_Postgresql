@@ -72,3 +72,81 @@ body {
 .link:hover {
   text-decoration: underline;
 }
+
+/* Basic reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9fafb;
+  color: #333;
+}
+
+/* Form container */
+form {
+  background-color: #fff;
+  max-width: 400px;
+  margin: 60px auto;
+  padding: 30px 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Heading */
+form h2 {
+  margin-bottom: 25px;
+  text-align: center;
+  color: #111827;
+}
+
+/* Input fields */
+form input {
+  width: 100%;
+  padding: 12px 15px;
+  margin-bottom: 20px;
+  border: 1.8px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+form input:focus {
+  border-color: #2563eb;
+  outline: none;
+  box-shadow: 0 0 5px #2563ebaa;
+}
+
+/* Submit button */
+form button {
+  width: 100%;
+  padding: 12px;
+  background-color: #2563eb;
+  color: white;
+  font-weight: 600;
+  font-size: 17px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #1e40af;
+}
+
+/* Alert message styling (if needed) */
+.alert {
+  color: #dc2626;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+  form {
+    margin: 30px 20px;
+    padding: 20px;
+  }
+}
+

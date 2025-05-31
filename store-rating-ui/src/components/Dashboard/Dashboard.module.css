@@ -1,0 +1,30 @@
+/* src/components/Dashboard/Dashboard.module.css */
+
+.dashboardContainer {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px 30px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.title {
+  color: #2c3e50;
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+  border-bottom: 3px solid #3498db;
+  padding-bottom: 8px;
+}
+
+.list {
+  list-style-type: disc;
+  padding-left: 20px;
+  color: #34495e;
+  font-size: 1.1rem;
+}
+
+.list li {
+  margin-bottom: 10px;
+}
